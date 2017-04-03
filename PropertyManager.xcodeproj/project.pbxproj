@@ -14,6 +14,15 @@
 		6789A6811E91E8530038846D /* PropertyManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6789A67F1E91E8530038846D /* PropertyManager.xcdatamodeld */; };
 		6789A6831E91E8530038846D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6789A6821E91E8530038846D /* Assets.xcassets */; };
 		6789A6861E91E8530038846D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6789A6841E91E8530038846D /* LaunchScreen.storyboard */; };
+		6789A68F1E91E9ED0038846D /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A68E1E91E9ED0038846D /* CoreDataManager.m */; };
+		6789A6AF1E91F8BF0038846D /* Property+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6A41E91F8BF0038846D /* Property+CoreDataClass.m */; };
+		6789A6B01E91F8BF0038846D /* Property+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6A61E91F8BF0038846D /* Property+CoreDataProperties.m */; };
+		6789A6B11E91F8BF0038846D /* Color+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6A81E91F8BF0038846D /* Color+CoreDataClass.m */; };
+		6789A6B21E91F8BF0038846D /* Color+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6AA1E91F8BF0038846D /* Color+CoreDataProperties.m */; };
+		6789A6B31E91F8BF0038846D /* Owner+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6AC1E91F8BF0038846D /* Owner+CoreDataClass.m */; };
+		6789A6B41E91F8BF0038846D /* Owner+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6AE1E91F8BF0038846D /* Owner+CoreDataProperties.m */; };
+		6789A6B71E9230C60038846D /* OwnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6B61E9230C60038846D /* OwnerViewController.m */; };
+		6789A6BA1E9237210038846D /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789A6B91E9237210038846D /* PropertyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,24 @@
 		6789A6821E91E8530038846D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6789A6851E91E8530038846D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6789A6871E91E8530038846D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6789A68D1E91E9ED0038846D /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		6789A68E1E91E9ED0038846D /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		6789A6A31E91F8BF0038846D /* Property+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Property+CoreDataClass.h"; sourceTree = "<group>"; };
+		6789A6A41E91F8BF0038846D /* Property+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Property+CoreDataClass.m"; sourceTree = "<group>"; };
+		6789A6A51E91F8BF0038846D /* Property+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Property+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6789A6A61E91F8BF0038846D /* Property+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Property+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6789A6A71E91F8BF0038846D /* Color+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+CoreDataClass.h"; sourceTree = "<group>"; };
+		6789A6A81E91F8BF0038846D /* Color+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Color+CoreDataClass.m"; sourceTree = "<group>"; };
+		6789A6A91E91F8BF0038846D /* Color+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6789A6AA1E91F8BF0038846D /* Color+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Color+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6789A6AB1E91F8BF0038846D /* Owner+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Owner+CoreDataClass.h"; sourceTree = "<group>"; };
+		6789A6AC1E91F8BF0038846D /* Owner+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Owner+CoreDataClass.m"; sourceTree = "<group>"; };
+		6789A6AD1E91F8BF0038846D /* Owner+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Owner+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6789A6AE1E91F8BF0038846D /* Owner+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Owner+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6789A6B51E9230C60038846D /* OwnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerViewController.h; sourceTree = "<group>"; };
+		6789A6B61E9230C60038846D /* OwnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerViewController.m; sourceTree = "<group>"; };
+		6789A6B81E9237210038846D /* PropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
+		6789A6B91E9237210038846D /* PropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +87,18 @@
 		6789A6721E91E8530038846D /* PropertyManager */ = {
 			isa = PBXGroup;
 			children = (
+				6789A6A21E91EA1B0038846D /* Core Data Models */,
 				6789A6761E91E8530038846D /* AppDelegate.h */,
 				6789A6771E91E8530038846D /* AppDelegate.m */,
 				6789A6791E91E8530038846D /* ViewController.h */,
 				6789A67A1E91E8530038846D /* ViewController.m */,
+				6789A68D1E91E9ED0038846D /* CoreDataManager.h */,
+				6789A68E1E91E9ED0038846D /* CoreDataManager.m */,
 				6789A67C1E91E8530038846D /* Main.storyboard */,
+				6789A6B51E9230C60038846D /* OwnerViewController.h */,
+				6789A6B61E9230C60038846D /* OwnerViewController.m */,
+				6789A6B81E9237210038846D /* PropertyViewController.h */,
+				6789A6B91E9237210038846D /* PropertyViewController.m */,
 				6789A6821E91E8530038846D /* Assets.xcassets */,
 				6789A6841E91E8530038846D /* LaunchScreen.storyboard */,
 				6789A6871E91E8530038846D /* Info.plist */,
@@ -80,6 +114,25 @@
 				6789A6741E91E8530038846D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6789A6A21E91EA1B0038846D /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				6789A6A31E91F8BF0038846D /* Property+CoreDataClass.h */,
+				6789A6A41E91F8BF0038846D /* Property+CoreDataClass.m */,
+				6789A6A51E91F8BF0038846D /* Property+CoreDataProperties.h */,
+				6789A6A61E91F8BF0038846D /* Property+CoreDataProperties.m */,
+				6789A6A71E91F8BF0038846D /* Color+CoreDataClass.h */,
+				6789A6A81E91F8BF0038846D /* Color+CoreDataClass.m */,
+				6789A6A91E91F8BF0038846D /* Color+CoreDataProperties.h */,
+				6789A6AA1E91F8BF0038846D /* Color+CoreDataProperties.m */,
+				6789A6AB1E91F8BF0038846D /* Owner+CoreDataClass.h */,
+				6789A6AC1E91F8BF0038846D /* Owner+CoreDataClass.m */,
+				6789A6AD1E91F8BF0038846D /* Owner+CoreDataProperties.h */,
+				6789A6AE1E91F8BF0038846D /* Owner+CoreDataProperties.m */,
+			);
+			name = "Core Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +207,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6789A6811E91E8530038846D /* PropertyManager.xcdatamodeld in Sources */,
+				6789A6B21E91F8BF0038846D /* Color+CoreDataProperties.m in Sources */,
 				6789A67B1E91E8530038846D /* ViewController.m in Sources */,
+				6789A6AF1E91F8BF0038846D /* Property+CoreDataClass.m in Sources */,
+				6789A6B11E91F8BF0038846D /* Color+CoreDataClass.m in Sources */,
+				6789A6B31E91F8BF0038846D /* Owner+CoreDataClass.m in Sources */,
+				6789A6B71E9230C60038846D /* OwnerViewController.m in Sources */,
+				6789A68F1E91E9ED0038846D /* CoreDataManager.m in Sources */,
+				6789A6B41E91F8BF0038846D /* Owner+CoreDataProperties.m in Sources */,
 				6789A6781E91E8530038846D /* AppDelegate.m in Sources */,
+				6789A6B01E91F8BF0038846D /* Property+CoreDataProperties.m in Sources */,
 				6789A6751E91E8530038846D /* main.m in Sources */,
+				6789A6BA1E9237210038846D /* PropertyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
